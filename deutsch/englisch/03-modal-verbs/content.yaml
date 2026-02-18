@@ -1,0 +1,214 @@
+version: 1
+number: 3
+title: "Modalverben - Können, Müssen, Sollen"
+description: "Die Modalverben can, must und should mit Beispielen"
+sections:
+  - title: "Can"
+    explanation: |
+      **Can** bedeutet **können**:
+      - Fähigkeit (I can swim)
+      - Erlaubnis (Can I go?)
+      - Möglichkeit (It can be cold in winter)
+
+      **Besonderheiten**:
+      - Kein **-s** in der 3. Person: he **can** (nicht ~~cans~~)
+      - Kein **to**: I can **swim** (nicht ~~to swim~~)
+      - Verneinung: **cannot** oder **can't**
+    examples:
+      - q: "I can speak English."
+        a: "Ich kann Englisch sprechen."
+        labels: ["Fähigkeit"]
+        rel:
+          - ["can", "kann", "Modalverb - Fähigkeit"]
+          - ["speak", "sprechen", "Verb"]
+          - ["English", "Englisch", "Sprache"]
+
+      - q: "She can play the piano."
+        a: "Sie kann Klavier spielen."
+        labels: ["Fähigkeit", "3. Person Singular"]
+        rel:
+          - ["can", "kann", "Modalverb"]
+          - ["play", "spielen", "Verb"]
+          - ["piano", "Klavier", "Substantiv - Musik"]
+
+      - q: "Can you help me?"
+        a: "Kannst du mir helfen?"
+        labels: ["Frage", "Bitte"]
+        rel:
+          - ["can you", "kannst du", "Frage mit can"]
+          - ["help", "helfen", "Verb"]
+
+      - q: "We can't go today."
+        a: "Wir können heute nicht gehen."
+        labels: ["Verneinung"]
+        rel:
+          - ["can't", "können nicht", "Verneinung von can"]
+          - ["today", "heute", "Zeitangabe"]
+
+      - q: "Can I open the window?"
+        a: "Kann ich das Fenster öffnen?"
+        labels: ["Frage", "Erlaubnis"]
+        rel:
+          - ["can I", "kann ich", "Frage - Erlaubnis"]
+          - ["open", "öffnen", "Verb"]
+          - ["window", "Fenster", "Substantiv"]
+
+      - q: "He can run very fast."
+        a: "Er kann sehr schnell laufen."
+        labels: ["Fähigkeit"]
+        rel:
+          - ["run", "laufen", "Verb - Bewegung"]
+          - ["very", "sehr", "Adverb"]
+          - ["fast", "schnell", "Adverb"]
+
+  - title: "Must"
+    explanation: |
+      **Must** bedeutet **müssen**:
+      - Pflicht, Notwendigkeit
+      - Starke Empfehlung
+      - Logische Schlussfolgerung
+
+      **Besonderheiten**:
+      - Kein **-s** in der 3. Person: he **must** (nicht ~~musts~~)
+      - Verneinung: **must not** / **mustn't** = darf nicht!
+      - **Must not ≠ don't have to**: must not = Verbot, don't have to = nicht müssen
+    examples:
+      - q: "I must finish this today."
+        a: "Ich muss das heute fertigmachen."
+        labels: ["Pflicht"]
+        rel:
+          - ["must", "muss", "Modalverb - Pflicht"]
+          - ["finish", "fertigmachen", "Verb"]
+
+      - q: "You must wear a seatbelt."
+        a: "Du musst einen Sicherheitsgurt tragen."
+        labels: ["Pflicht", "Vorschrift"]
+        rel:
+          - ["must", "muss", "Modalverb"]
+          - ["wear", "tragen", "Verb - Kleidung"]
+          - ["seatbelt", "Sicherheitsgurt", "Substantiv"]
+
+      - q: "She must be at home."
+        a: "Sie muss zu Hause sein."
+        labels: ["Schlussfolgerung"]
+        rel:
+          - ["must be", "muss sein", "Logische Schlussfolgerung"]
+          - ["at home", "zu Hause", "Ort"]
+
+      - q: "You mustn't park here."
+        a: "Du darfst hier nicht parken."
+        labels: ["Verbot"]
+        rel:
+          - ["mustn't", "darfst nicht", "Verbot"]
+          - ["park", "parken", "Verb"]
+          - ["here", "hier", "Ort"]
+
+      - q: "We must hurry!"
+        a: "Wir müssen uns beeilen!"
+        labels: ["Dringlichkeit"]
+        rel:
+          - ["must", "müssen", "Modalverb"]
+          - ["hurry", "sich beeilen", "Verb"]
+
+      - q: "You don't have to come."
+        a: "Du musst nicht kommen."
+        labels: ["Keine Pflicht"]
+        rel:
+          - ["don't have to", "muss nicht", "Keine Notwendigkeit"]
+          - ["come", "kommen", "Verb"]
+
+  - title: "Should"
+    explanation: |
+      **Should** bedeutet **sollte(n)**:
+      - Ratschläge geben
+      - Empfehlungen
+      - Erwartungen
+
+      **Besonderheiten**:
+      - Kein **-s** in der 3. Person: he **should**
+      - Verneinung: **should not** / **shouldn't**
+      - Schwächer als **must** (Empfehlung, kein Zwang)
+    examples:
+      - q: "You should see a doctor."
+        a: "Du solltest zum Arzt gehen."
+        labels: ["Ratschlag"]
+        rel:
+          - ["should", "sollte", "Modalverb - Ratschlag"]
+          - ["see a doctor", "zum Arzt gehen", "Ausdruck"]
+          - ["doctor", "Arzt", "Substantiv - Beruf"]
+
+      - q: "She should study more."
+        a: "Sie sollte mehr lernen."
+        labels: ["Empfehlung"]
+        rel:
+          - ["should", "sollte", "Modalverb"]
+          - ["study", "lernen/studieren", "Verb"]
+          - ["more", "mehr", "Adverb"]
+
+      - q: "We should leave now."
+        a: "Wir sollten jetzt gehen."
+        labels: ["Empfehlung"]
+        rel:
+          - ["should", "sollten", "Modalverb"]
+          - ["leave", "gehen/abfahren", "Verb"]
+          - ["now", "jetzt", "Zeitangabe"]
+
+      - q: "You shouldn't eat so much sugar."
+        a: "Du solltest nicht so viel Zucker essen."
+        labels: ["Ratschlag", "Verneinung"]
+        rel:
+          - ["shouldn't", "solltest nicht", "Verneinung"]
+          - ["eat", "essen", "Verb"]
+          - ["sugar", "Zucker", "Substantiv - Essen"]
+
+      - q: "Should I call you later?"
+        a: "Soll ich dich später anrufen?"
+        labels: ["Frage", "Angebot"]
+        rel:
+          - ["should I", "soll ich", "Frage mit should"]
+          - ["call", "anrufen", "Verb"]
+          - ["later", "später", "Zeitangabe"]
+
+      - q: "He should be here by now."
+        a: "Er sollte inzwischen hier sein."
+        labels: ["Erwartung"]
+        rel:
+          - ["should be", "sollte sein", "Erwartung"]
+          - ["by now", "inzwischen", "Zeitangabe"]
+
+  - title: "Can vs Must vs Should"
+    explanation: |
+      **Vergleich der Modalverben**:
+      - **Can**: Fähigkeit, Erlaubnis → ich **kann**
+      - **Must**: Pflicht, Notwendigkeit → ich **muss**
+      - **Should**: Empfehlung, Rat → ich **sollte**
+
+      **Stärke**: must > should > can
+    examples:
+      - q: "You can park here."
+        a: "Du kannst hier parken. (Es ist erlaubt.)"
+        labels: ["can", "Erlaubnis"]
+        rel:
+          - ["can", "können/dürfen", "Erlaubnis"]
+
+      - q: "You should park over there."
+        a: "Du solltest dort drüben parken. (Es wäre besser.)"
+        labels: ["should", "Empfehlung"]
+        rel:
+          - ["should", "sollte", "Empfehlung"]
+          - ["over there", "dort drüben", "Ort"]
+
+      - q: "You must park in the garage."
+        a: "Du musst in der Garage parken. (Es ist Pflicht.)"
+        labels: ["must", "Pflicht"]
+        rel:
+          - ["must", "muss", "Pflicht"]
+          - ["garage", "Garage", "Substantiv"]
+
+      - q: "Can you swim? — Yes, but I shouldn't swim today."
+        a: "Kannst du schwimmen? — Ja, aber ich sollte heute nicht schwimmen."
+        labels: ["can + should", "Kombination"]
+        rel:
+          - ["can", "können", "Fähigkeit"]
+          - ["shouldn't", "sollte nicht", "Empfehlung"]
+          - ["swim", "schwimmen", "Verb - Sport"]

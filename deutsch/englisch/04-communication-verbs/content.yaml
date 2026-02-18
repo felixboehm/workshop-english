@@ -1,0 +1,170 @@
+version: 1
+number: 4
+title: "Kommunikationsverben - Sagen, Erzählen, Sprechen"
+description: "Die Verben to say, to tell und to speak/talk mit Beispielen"
+sections:
+  - title: "To say"
+    explanation: |
+      **To say** bedeutet **sagen**:
+      - Wörter oder Sätze aussprechen
+      - Etwas berichten
+      - Steht oft mit direkter oder indirekter Rede
+
+      **Konjugation**:
+      - I say, you say, he/she/it **says**, we say, they say
+      - **Vergangenheit**: said
+
+      **Wichtig**: say something **to** someone (nicht ~~say someone~~)
+    examples:
+      - q: "She says hello every morning."
+        a: "Sie sagt jeden Morgen Hallo."
+        labels: ["Simple Present", "3. Person Singular"]
+        rel:
+          - ["says", "sagt", "to say - er/sie sagt"]
+          - ["hello", "Hallo", "Begrüßung"]
+          - ["every morning", "jeden Morgen", "Zeitangabe"]
+
+      - q: "What did you say?"
+        a: "Was hast du gesagt?"
+        labels: ["Frage", "Vergangenheit"]
+        rel:
+          - ["did you say", "hast du gesagt", "Frage - Vergangenheit"]
+          - ["what", "was", "Fragewort"]
+
+      - q: "He said he was tired."
+        a: "Er sagte, er sei müde."
+        labels: ["Indirekte Rede"]
+        rel:
+          - ["said", "sagte", "to say - Vergangenheit"]
+          - ["was tired", "sei müde", "Indirekte Rede"]
+
+      - q: "I want to say something."
+        a: "Ich möchte etwas sagen."
+        labels: ["Ausdruck"]
+        rel:
+          - ["want to say", "möchte sagen", "Ausdruck"]
+          - ["something", "etwas", "Pronomen"]
+
+      - q: "They say it's going to rain."
+        a: "Man sagt, es wird regnen."
+        labels: ["Allgemein"]
+        rel:
+          - ["they say", "man sagt", "Allgemeine Aussage"]
+          - ["rain", "regnen", "Verb - Wetter"]
+
+  - title: "To tell"
+    explanation: |
+      **To tell** bedeutet **erzählen/sagen**:
+      - Informationen weitergeben
+      - Geschichten erzählen
+      - Jemanden anweisen
+
+      **Wichtiger Unterschied zu say**:
+      - **tell** someone something (tell **me** the truth)
+      - **say** something to someone (say hello **to me**)
+
+      **Konjugation**:
+      - I tell, you tell, he/she/it **tells**, we tell, they tell
+      - **Vergangenheit**: told
+    examples:
+      - q: "Tell me about your day."
+        a: "Erzähl mir von deinem Tag."
+        labels: ["Imperativ"]
+        rel:
+          - ["tell me", "erzähl mir", "to tell - Imperativ"]
+          - ["about", "von/über", "Präposition"]
+
+      - q: "She tells funny stories."
+        a: "Sie erzählt lustige Geschichten."
+        labels: ["Simple Present", "3. Person Singular"]
+        rel:
+          - ["tells", "erzählt", "to tell - er/sie erzählt"]
+          - ["funny", "lustig", "Adjektiv"]
+          - ["stories", "Geschichten", "Substantiv"]
+
+      - q: "Can you tell me the way?"
+        a: "Kannst du mir den Weg sagen?"
+        labels: ["Frage", "Höflichkeit"]
+        rel:
+          - ["tell me", "mir sagen", "to tell"]
+          - ["the way", "den Weg", "Substantiv"]
+
+      - q: "I told him the truth."
+        a: "Ich habe ihm die Wahrheit gesagt."
+        labels: ["Vergangenheit"]
+        rel:
+          - ["told", "sagte/erzählte", "to tell - Vergangenheit"]
+          - ["truth", "Wahrheit", "Substantiv"]
+
+      - q: "Don't tell anyone!"
+        a: "Sag es niemandem!"
+        labels: ["Imperativ", "Verneinung"]
+        rel:
+          - ["don't tell", "sag nicht", "Verneinung"]
+          - ["anyone", "jemand/niemandem", "Pronomen"]
+
+      - q: "He told me to wait."
+        a: "Er sagte mir, ich solle warten."
+        labels: ["Anweisung"]
+        rel:
+          - ["told me to", "sagte mir zu", "Anweisung"]
+          - ["wait", "warten", "Verb"]
+
+  - title: "To speak / To talk"
+    explanation: |
+      **To speak** und **to talk** bedeuten beide **sprechen/reden**:
+
+      **To speak** (formeller):
+      - Sprachen sprechen (speak English)
+      - Vor Publikum sprechen
+      - Telefon (May I speak to...?)
+
+      **To talk** (informeller):
+      - Sich unterhalten
+      - Plaudern
+      - Talk **about** = über etwas reden
+      - Talk **to** = mit jemandem reden
+    examples:
+      - q: "Do you speak English?"
+        a: "Sprechen Sie Englisch?"
+        labels: ["Frage", "to speak"]
+        rel:
+          - ["speak", "sprechen", "to speak"]
+          - ["English", "Englisch", "Sprache"]
+
+      - q: "She speaks three languages."
+        a: "Sie spricht drei Sprachen."
+        labels: ["Simple Present", "to speak"]
+        rel:
+          - ["speaks", "spricht", "to speak - er/sie spricht"]
+          - ["three", "drei", "Zahl"]
+          - ["languages", "Sprachen", "Substantiv"]
+
+      - q: "Can I talk to you for a moment?"
+        a: "Kann ich kurz mit dir reden?"
+        labels: ["Frage", "to talk"]
+        rel:
+          - ["talk to", "reden mit", "Ausdruck"]
+          - ["for a moment", "kurz/einen Moment", "Zeitangabe"]
+
+      - q: "We need to talk about this."
+        a: "Wir müssen darüber reden."
+        labels: ["to talk", "Ausdruck"]
+        rel:
+          - ["talk about", "reden über", "Ausdruck"]
+          - ["need to", "müssen", "Notwendigkeit"]
+
+      - q: "He speaks too quietly."
+        a: "Er spricht zu leise."
+        labels: ["to speak"]
+        rel:
+          - ["speaks", "spricht", "to speak"]
+          - ["too", "zu", "Adverb"]
+          - ["quietly", "leise", "Adverb"]
+
+      - q: "They talk on the phone every day."
+        a: "Sie telefonieren jeden Tag."
+        labels: ["to talk"]
+        rel:
+          - ["talk on the phone", "telefonieren", "Ausdruck"]
+          - ["every day", "jeden Tag", "Zeitangabe"]

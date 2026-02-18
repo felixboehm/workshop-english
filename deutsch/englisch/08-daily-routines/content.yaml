@@ -1,0 +1,178 @@
+version: 1
+number: 8
+title: "Tägliche Verben - Essen, Trinken, Schlafen"
+description: "Die Verben to eat, to drink und to sleep mit Beispielen"
+sections:
+  - title: "To eat"
+    explanation: |
+      **To eat** bedeutet **essen**:
+      - Mahlzeiten einnehmen
+      - Nahrung zu sich nehmen
+
+      **Konjugation**:
+      - I eat, you eat, he/she/it **eats**, we eat, they eat
+      - **Vergangenheit**: ate
+      - **Partizip**: eaten
+
+      **Mahlzeiten**:
+      - breakfast = Frühstück
+      - lunch = Mittagessen
+      - dinner/supper = Abendessen
+    examples:
+      - q: "I eat breakfast at seven."
+        a: "Ich frühstücke um sieben."
+        labels: ["Simple Present", "Routine"]
+        rel:
+          - ["eat", "esse", "to eat"]
+          - ["breakfast", "Frühstück", "Substantiv - Mahlzeit"]
+          - ["at seven", "um sieben", "Uhrzeit"]
+
+      - q: "She eats a lot of vegetables."
+        a: "Sie isst viel Gemüse."
+        labels: ["Simple Present", "3. Person Singular"]
+        rel:
+          - ["eats", "isst", "to eat - er/sie isst"]
+          - ["a lot of", "viel", "Mengenangabe"]
+          - ["vegetables", "Gemüse", "Substantiv - Essen"]
+
+      - q: "We ate pizza last night."
+        a: "Wir haben gestern Abend Pizza gegessen."
+        labels: ["Vergangenheit"]
+        rel:
+          - ["ate", "aßen/haben gegessen", "to eat - Vergangenheit"]
+          - ["last night", "gestern Abend", "Zeitangabe"]
+
+      - q: "What do you want to eat?"
+        a: "Was willst du essen?"
+        labels: ["Frage"]
+        rel:
+          - ["want to eat", "essen wollen", "Ausdruck"]
+
+      - q: "I don't eat meat."
+        a: "Ich esse kein Fleisch."
+        labels: ["Verneinung"]
+        rel:
+          - ["don't eat", "esse nicht", "Verneinung"]
+          - ["meat", "Fleisch", "Substantiv - Essen"]
+
+      - q: "Have you eaten yet?"
+        a: "Hast du schon gegessen?"
+        labels: ["Frage", "Perfekt"]
+        rel:
+          - ["have you eaten", "hast du gegessen", "Frage - Perfekt"]
+          - ["yet", "schon/noch", "Adverb"]
+
+  - title: "To drink"
+    explanation: |
+      **To drink** bedeutet **trinken**:
+      - Flüssigkeiten zu sich nehmen
+      - Auch: Alkohol trinken (to drink = trinken / saufen)
+
+      **Konjugation**:
+      - I drink, you drink, he/she/it **drinks**, we drink, they drink
+      - **Vergangenheit**: drank
+      - **Partizip**: drunk
+
+      **Getränke**:
+      - water = Wasser
+      - coffee = Kaffee
+      - tea = Tee
+      - juice = Saft
+      - beer = Bier
+      - wine = Wein
+    examples:
+      - q: "I drink coffee every morning."
+        a: "Ich trinke jeden Morgen Kaffee."
+        labels: ["Simple Present", "Routine"]
+        rel:
+          - ["drink", "trinke", "to drink"]
+          - ["coffee", "Kaffee", "Substantiv - Getränk"]
+          - ["every morning", "jeden Morgen", "Zeitangabe"]
+
+      - q: "She drinks a lot of water."
+        a: "Sie trinkt viel Wasser."
+        labels: ["Simple Present", "3. Person Singular"]
+        rel:
+          - ["drinks", "trinkt", "to drink - er/sie trinkt"]
+          - ["water", "Wasser", "Substantiv - Getränk"]
+
+      - q: "What would you like to drink?"
+        a: "Was möchten Sie trinken?"
+        labels: ["Frage", "Höflichkeit"]
+        rel:
+          - ["would you like to drink", "möchten Sie trinken", "Höfliche Frage"]
+
+      - q: "I don't drink alcohol."
+        a: "Ich trinke keinen Alkohol."
+        labels: ["Verneinung"]
+        rel:
+          - ["don't drink", "trinke nicht", "Verneinung"]
+          - ["alcohol", "Alkohol", "Substantiv"]
+
+      - q: "We drank too much last night."
+        a: "Wir haben gestern Abend zu viel getrunken."
+        labels: ["Vergangenheit"]
+        rel:
+          - ["drank", "tranken", "to drink - Vergangenheit"]
+          - ["too much", "zu viel", "Mengenangabe"]
+
+  - title: "To sleep"
+    explanation: |
+      **To sleep** bedeutet **schlafen**:
+      - Nachtschlaf
+      - Mittagsschlaf (take a nap)
+      - Verwandte Ausdrücke: wake up, get up, go to bed
+
+      **Konjugation**:
+      - I sleep, you sleep, he/she/it **sleeps**, we sleep, they sleep
+      - **Vergangenheit**: slept
+
+      **Nützliche Ausdrücke**:
+      - go to bed = ins Bett gehen
+      - fall asleep = einschlafen
+      - wake up = aufwachen
+      - get up = aufstehen
+    examples:
+      - q: "I sleep eight hours a night."
+        a: "Ich schlafe acht Stunden pro Nacht."
+        labels: ["Simple Present", "Routine"]
+        rel:
+          - ["sleep", "schlafe", "to sleep"]
+          - ["eight hours", "acht Stunden", "Zeitangabe"]
+          - ["a night", "pro Nacht", "Zeitangabe"]
+
+      - q: "She slept until noon."
+        a: "Sie hat bis Mittag geschlafen."
+        labels: ["Vergangenheit"]
+        rel:
+          - ["slept", "schlief/hat geschlafen", "to sleep - Vergangenheit"]
+          - ["until noon", "bis Mittag", "Zeitangabe"]
+
+      - q: "I can't sleep when it's noisy."
+        a: "Ich kann nicht schlafen, wenn es laut ist."
+        labels: ["Verneinung"]
+        rel:
+          - ["can't sleep", "kann nicht schlafen", "Verneinung"]
+          - ["noisy", "laut", "Adjektiv"]
+
+      - q: "I go to bed at eleven."
+        a: "Ich gehe um elf ins Bett."
+        labels: ["Ausdruck", "Routine"]
+        rel:
+          - ["go to bed", "ins Bett gehen", "Ausdruck"]
+          - ["at eleven", "um elf", "Uhrzeit"]
+
+      - q: "He wakes up at six every day."
+        a: "Er wacht jeden Tag um sechs auf."
+        labels: ["Ausdruck", "Routine"]
+        rel:
+          - ["wakes up", "wacht auf", "Phrasal Verb"]
+          - ["at six", "um sechs", "Uhrzeit"]
+
+      - q: "The baby fell asleep in my arms."
+        a: "Das Baby ist in meinen Armen eingeschlafen."
+        labels: ["Vergangenheit", "Ausdruck"]
+        rel:
+          - ["fell asleep", "ist eingeschlafen", "Ausdruck - Vergangenheit"]
+          - ["baby", "Baby", "Substantiv"]
+          - ["arms", "Arme", "Substantiv - Körper"]

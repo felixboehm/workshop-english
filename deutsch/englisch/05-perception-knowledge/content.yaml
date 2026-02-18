@@ -1,0 +1,174 @@
+version: 1
+number: 5
+title: "Wahrnehmung und Wissen - Sehen, Hören, Wissen"
+description: "Die Verben to see, to hear und to know mit Beispielen"
+sections:
+  - title: "To see"
+    explanation: |
+      **To see** bedeutet **sehen**:
+      - Visuelle Wahrnehmung
+      - Verstehen (I see = ich verstehe)
+      - Jemanden treffen (see someone)
+
+      **Konjugation**:
+      - I see, you see, he/she/it **sees**, we see, they see
+      - **Vergangenheit**: saw
+      - **Partizip**: seen
+
+      **Unterschied**: see = sehen (passiv), look = schauen (aktiv), watch = beobachten (länger)
+    examples:
+      - q: "I can see the mountains from here."
+        a: "Ich kann von hier die Berge sehen."
+        labels: ["Wahrnehmung"]
+        rel:
+          - ["see", "sehen", "to see"]
+          - ["mountains", "Berge", "Substantiv - Natur"]
+          - ["from here", "von hier", "Ort"]
+
+      - q: "Do you see that building?"
+        a: "Siehst du das Gebäude?"
+        labels: ["Frage"]
+        rel:
+          - ["do you see", "siehst du", "Frage"]
+          - ["building", "Gebäude", "Substantiv"]
+
+      - q: "I see what you mean."
+        a: "Ich verstehe, was du meinst."
+        labels: ["Verstehen"]
+        rel:
+          - ["I see", "ich verstehe", "Ausdruck - Verstehen"]
+          - ["what you mean", "was du meinst", "Nebensatz"]
+
+      - q: "She saw him at the supermarket."
+        a: "Sie hat ihn im Supermarkt gesehen."
+        labels: ["Vergangenheit"]
+        rel:
+          - ["saw", "sah/hat gesehen", "to see - Vergangenheit"]
+          - ["supermarket", "Supermarkt", "Substantiv - Einkauf"]
+
+      - q: "I'll see you tomorrow."
+        a: "Wir sehen uns morgen."
+        labels: ["Zukunft", "Abschied"]
+        rel:
+          - ["see you", "wir sehen uns", "Abschiedsgruß"]
+          - ["tomorrow", "morgen", "Zeitangabe"]
+
+      - q: "Let me see."
+        a: "Lass mich mal sehen."
+        labels: ["Ausdruck"]
+        rel:
+          - ["let me see", "lass mich sehen", "Ausdruck - Nachdenken"]
+
+  - title: "To hear"
+    explanation: |
+      **To hear** bedeutet **hören**:
+      - Akustische Wahrnehmung
+      - Erfahren, Neuigkeiten bekommen
+      - hear about = von etwas hören
+      - hear from = von jemandem hören
+
+      **Konjugation**:
+      - I hear, you hear, he/she/it **hears**, we hear, they hear
+      - **Vergangenheit**: heard
+
+      **Unterschied**: hear = hören (passiv), listen = zuhören (aktiv)
+    examples:
+      - q: "Can you hear me?"
+        a: "Kannst du mich hören?"
+        labels: ["Frage"]
+        rel:
+          - ["hear", "hören", "to hear"]
+          - ["me", "mich", "Pronomen"]
+
+      - q: "I hear music from next door."
+        a: "Ich höre Musik von nebenan."
+        labels: ["Wahrnehmung"]
+        rel:
+          - ["hear", "höre", "to hear - ich höre"]
+          - ["music", "Musik", "Substantiv"]
+          - ["next door", "nebenan", "Ort"]
+
+      - q: "Have you heard the news?"
+        a: "Hast du die Neuigkeiten gehört?"
+        labels: ["Frage", "Perfekt"]
+        rel:
+          - ["heard", "gehört", "to hear - Partizip"]
+          - ["news", "Neuigkeiten/Nachrichten", "Substantiv"]
+
+      - q: "She heard a strange noise."
+        a: "Sie hörte ein seltsames Geräusch."
+        labels: ["Vergangenheit"]
+        rel:
+          - ["heard", "hörte", "to hear - Vergangenheit"]
+          - ["strange", "seltsam", "Adjektiv"]
+          - ["noise", "Geräusch/Lärm", "Substantiv"]
+
+      - q: "I haven't heard from him in weeks."
+        a: "Ich habe seit Wochen nichts von ihm gehört."
+        labels: ["Perfekt", "Verneinung"]
+        rel:
+          - ["haven't heard from", "nichts gehört von", "Ausdruck"]
+          - ["in weeks", "seit Wochen", "Zeitangabe"]
+
+  - title: "To know"
+    explanation: |
+      **To know** bedeutet **wissen/kennen**:
+      - Wissen (Fakten): I know the answer
+      - Kennen (Personen, Orte): I know him
+      - Können (Fähigkeit): I know how to swim
+
+      **Konjugation**:
+      - I know, you know, he/she/it **knows**, we know, they know
+      - **Vergangenheit**: knew
+      - **Partizip**: known
+
+      **Achtung**: Im Deutschen unterscheidet man "wissen" und "kennen" — im Englischen nur **know**!
+    examples:
+      - q: "I know the answer."
+        a: "Ich weiß die Antwort."
+        labels: ["Wissen"]
+        rel:
+          - ["know", "weiß", "to know - wissen"]
+          - ["answer", "Antwort", "Substantiv"]
+
+      - q: "Do you know her?"
+        a: "Kennst du sie?"
+        labels: ["Frage", "Kennen"]
+        rel:
+          - ["know", "kennen", "to know - kennen"]
+          - ["her", "sie", "Pronomen"]
+
+      - q: "He knows how to cook."
+        a: "Er weiß, wie man kocht. / Er kann kochen."
+        labels: ["Fähigkeit"]
+        rel:
+          - ["knows how to", "weiß wie man", "Ausdruck - Fähigkeit"]
+          - ["cook", "kochen", "Verb"]
+
+      - q: "I don't know where she is."
+        a: "Ich weiß nicht, wo sie ist."
+        labels: ["Verneinung"]
+        rel:
+          - ["don't know", "weiß nicht", "Verneinung"]
+          - ["where", "wo", "Fragewort"]
+
+      - q: "She knows Berlin very well."
+        a: "Sie kennt Berlin sehr gut."
+        labels: ["Kennen", "Ort"]
+        rel:
+          - ["knows", "kennt", "to know - kennen"]
+          - ["very well", "sehr gut", "Adverb"]
+
+      - q: "You know what I mean."
+        a: "Du weißt, was ich meine."
+        labels: ["Ausdruck"]
+        rel:
+          - ["know", "weißt", "to know - wissen"]
+          - ["what I mean", "was ich meine", "Nebensatz"]
+
+      - q: "As far as I know, he's in London."
+        a: "Soweit ich weiß, ist er in London."
+        labels: ["Ausdruck"]
+        rel:
+          - ["as far as I know", "soweit ich weiß", "Redewendung"]
+          - ["London", "London", "Ort - Stadt"]

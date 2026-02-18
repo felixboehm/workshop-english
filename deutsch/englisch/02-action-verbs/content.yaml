@@ -1,0 +1,227 @@
+version: 1
+number: 2
+title: "Bewegungsverben - Gehen, Kommen, Machen"
+description: "Die Verben to go, to come und to do/make mit Beispielen"
+sections:
+  - title: "To go"
+    explanation: |
+      **To go** bedeutet **gehen/fahren**:
+      - Bewegung von einem Ort weg
+      - Zukunftspläne (going to + Infinitiv)
+      - Häufig mit Präpositionen (to, into, out)
+
+      **Konjugation Präsens**:
+      - I go (ich gehe)
+      - you go (du gehst)
+      - he/she/it goes (er/sie/es geht)
+      - we go (wir gehen)
+      - they go (sie gehen)
+
+      **Achtung**: 3. Person Singular → go**es** (nicht nur -s!)
+    examples:
+      - q: "I go to school every day."
+        a: "Ich gehe jeden Tag zur Schule."
+        labels: ["Simple Present", "1. Person Singular"]
+        rel:
+          - ["go", "gehe", "to go - ich gehe"]
+          - ["to school", "zur Schule", "Ort - Bildung"]
+          - ["every day", "jeden Tag", "Zeitangabe"]
+
+      - q: "She goes to work by bus."
+        a: "Sie fährt mit dem Bus zur Arbeit."
+        labels: ["Simple Present", "3. Person Singular"]
+        rel:
+          - ["goes", "fährt", "to go - er/sie geht"]
+          - ["to work", "zur Arbeit", "Ort - Beruf"]
+          - ["by bus", "mit dem Bus", "Transportmittel"]
+
+      - q: "We go shopping on Saturdays."
+        a: "Wir gehen samstags einkaufen."
+        labels: ["Simple Present", "1. Person Plural"]
+        rel:
+          - ["go shopping", "einkaufen gehen", "Ausdruck"]
+          - ["on Saturdays", "samstags", "Zeitangabe"]
+
+      - q: "They go to the cinema tonight."
+        a: "Sie gehen heute Abend ins Kino."
+        labels: ["Simple Present", "3. Person Plural"]
+        rel:
+          - ["go", "gehen", "to go - sie gehen"]
+          - ["cinema", "Kino", "Substantiv - Unterhaltung"]
+          - ["tonight", "heute Abend", "Zeitangabe"]
+
+      - q: "Do you go to the gym?"
+        a: "Gehst du ins Fitnessstudio?"
+        labels: ["Frage"]
+        rel:
+          - ["do you go", "gehst du", "Frage mit do"]
+          - ["gym", "Fitnessstudio", "Substantiv - Sport"]
+
+      - q: "Let's go home."
+        a: "Lass uns nach Hause gehen."
+        labels: ["Imperativ"]
+        rel:
+          - ["let's go", "lass uns gehen", "Aufforderung"]
+          - ["home", "nach Hause", "Ort"]
+
+  - title: "To come"
+    explanation: |
+      **To come** bedeutet **kommen**:
+      - Bewegung zum Sprecher hin
+      - Herkunft (come from)
+      - Oft Gegenteil von "to go"
+
+      **Konjugation Präsens**:
+      - I come (ich komme)
+      - you come (du kommst)
+      - he/she/it comes (er/sie/es kommt)
+      - we come (wir kommen)
+      - they come (sie kommen)
+    examples:
+      - q: "I come from Germany."
+        a: "Ich komme aus Deutschland."
+        labels: ["Simple Present", "Herkunft"]
+        rel:
+          - ["come from", "kommen aus", "Ausdruck - Herkunft"]
+          - ["Germany", "Deutschland", "Land"]
+
+      - q: "She comes home at six."
+        a: "Sie kommt um sechs nach Hause."
+        labels: ["Simple Present", "3. Person Singular"]
+        rel:
+          - ["comes", "kommt", "to come - er/sie kommt"]
+          - ["at six", "um sechs", "Uhrzeit"]
+          - ["home", "nach Hause", "Ort"]
+
+      - q: "Can you come to my party?"
+        a: "Kannst du zu meiner Party kommen?"
+        labels: ["Frage", "Einladung"]
+        rel:
+          - ["can you come", "kannst du kommen", "Frage"]
+          - ["party", "Party/Feier", "Substantiv"]
+
+      - q: "They come here every summer."
+        a: "Sie kommen jeden Sommer hierher."
+        labels: ["Simple Present", "3. Person Plural"]
+        rel:
+          - ["come", "kommen", "to come - sie kommen"]
+          - ["here", "hierher", "Ort"]
+          - ["every summer", "jeden Sommer", "Zeitangabe"]
+
+      - q: "Come in, please!"
+        a: "Kommen Sie herein, bitte!"
+        labels: ["Imperativ", "Höflichkeit"]
+        rel:
+          - ["come in", "hereinkommen", "Phrasal Verb"]
+          - ["please", "bitte", "Höflichkeitswort"]
+
+      - q: "Where do you come from?"
+        a: "Woher kommst du?"
+        labels: ["Frage", "Herkunft"]
+        rel:
+          - ["where", "woher/wo", "Fragewort"]
+          - ["come from", "kommen aus", "Ausdruck"]
+
+  - title: "To do / To make"
+    explanation: |
+      **To do** und **to make** bedeuten beide **machen/tun**, aber:
+      - **To do**: Aktivitäten, Aufgaben, Arbeit
+        - do homework, do the dishes, do exercise
+      - **To make**: Etwas herstellen, erzeugen
+        - make breakfast, make a cake, make a decision
+
+      **To do - Konjugation**:
+      - I do, you do, he/she/it **does**, we do, they do
+
+      **To make - Konjugation**:
+      - I make, you make, he/she/it **makes**, we make, they make
+    examples:
+      - q: "I do my homework after school."
+        a: "Ich mache meine Hausaufgaben nach der Schule."
+        labels: ["Simple Present", "to do"]
+        rel:
+          - ["do", "mache", "to do - ich mache"]
+          - ["homework", "Hausaufgaben", "Substantiv - Schule"]
+          - ["after school", "nach der Schule", "Zeitangabe"]
+
+      - q: "She does the dishes every evening."
+        a: "Sie spült jeden Abend ab."
+        labels: ["Simple Present", "to do", "3. Person Singular"]
+        rel:
+          - ["does", "macht", "to do - er/sie macht"]
+          - ["the dishes", "den Abwasch", "Substantiv - Haushalt"]
+          - ["every evening", "jeden Abend", "Zeitangabe"]
+
+      - q: "He makes breakfast for the family."
+        a: "Er macht Frühstück für die Familie."
+        labels: ["Simple Present", "to make", "3. Person Singular"]
+        rel:
+          - ["makes", "macht", "to make - er/sie macht"]
+          - ["breakfast", "Frühstück", "Substantiv - Mahlzeit"]
+          - ["family", "Familie", "Substantiv"]
+
+      - q: "We make plans for the weekend."
+        a: "Wir machen Pläne fürs Wochenende."
+        labels: ["Simple Present", "to make"]
+        rel:
+          - ["make plans", "Pläne machen", "Ausdruck"]
+          - ["weekend", "Wochenende", "Zeitangabe"]
+
+      - q: "What do you do for a living?"
+        a: "Was machst du beruflich?"
+        labels: ["Frage", "to do"]
+        rel:
+          - ["what do you do", "was machst du", "Frage"]
+          - ["for a living", "beruflich", "Ausdruck"]
+
+      - q: "Don't make noise!"
+        a: "Mach keinen Lärm!"
+        labels: ["Imperativ", "Verneinung", "to make"]
+        rel:
+          - ["don't make", "mach nicht", "Verneinung - Imperativ"]
+          - ["noise", "Lärm", "Substantiv"]
+
+  - title: "Going to - Nahe Zukunft"
+    explanation: |
+      **Going to + Infinitiv** drückt die **nahe Zukunft** aus:
+      - Pläne und Absichten
+      - Was man vorhat zu tun
+      - Ähnlich wie im Deutschen "ich werde..."
+
+      **Struktur**: Subject + am/is/are + going to + Verb
+    examples:
+      - q: "I am going to cook dinner."
+        a: "Ich werde das Abendessen kochen."
+        labels: ["Zukunft", "going to"]
+        rel:
+          - ["going to cook", "werde kochen", "Zukunft"]
+          - ["dinner", "Abendessen", "Substantiv - Mahlzeit"]
+
+      - q: "She is going to visit her parents."
+        a: "Sie wird ihre Eltern besuchen."
+        labels: ["Zukunft", "going to"]
+        rel:
+          - ["going to visit", "wird besuchen", "Zukunft"]
+          - ["parents", "Eltern", "Substantiv - Familie"]
+
+      - q: "We are going to travel next month."
+        a: "Wir werden nächsten Monat reisen."
+        labels: ["Zukunft", "going to"]
+        rel:
+          - ["going to travel", "werden reisen", "Zukunft"]
+          - ["next month", "nächsten Monat", "Zeitangabe"]
+
+      - q: "Are you going to come to the party?"
+        a: "Wirst du zur Party kommen?"
+        labels: ["Zukunft", "Frage"]
+        rel:
+          - ["are you going to", "wirst du", "Frage - Zukunft"]
+          - ["party", "Party", "Substantiv"]
+
+      - q: "They are going to buy a new house."
+        a: "Sie werden ein neues Haus kaufen."
+        labels: ["Zukunft", "going to"]
+        rel:
+          - ["going to buy", "werden kaufen", "Zukunft"]
+          - ["new", "neu", "Adjektiv"]
+          - ["house", "Haus", "Substantiv"]

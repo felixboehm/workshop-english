@@ -1,0 +1,192 @@
+version: 1
+number: 1
+title: "Grundlegende Verben - Sein und Haben"
+description: "Die wichtigsten Verben to be und to have mit allen Formen"
+sections:
+  - title: "To be"
+    explanation: |
+      **To be** bedeutet **sein** und ist das wichtigste englische Verb:
+      - Identität, Nationalität, Beruf
+      - Eigenschaften und Zustände
+      - Alter, Zeit, Wetter
+
+      **Konjugation Präsens (Simple Present)**:
+      - I am (ich bin)
+      - you are (du bist / Sie sind)
+      - he/she/it is (er/sie/es ist)
+      - we are (wir sind)
+      - they are (sie sind)
+
+      **Kurzformen**: I'm, you're, he's, she's, it's, we're, they're
+    examples:
+      - q: "I am a teacher."
+        a: "Ich bin Lehrer."
+        labels: ["Simple Present", "1. Person Singular"]
+        rel:
+          - ["am", "bin", "to be - ich bin"]
+          - ["teacher", "Lehrer", "Substantiv - Beruf"]
+
+      - q: "You are very kind."
+        a: "Du bist sehr nett."
+        labels: ["Simple Present", "2. Person Singular"]
+        rel:
+          - ["are", "bist", "to be - du bist"]
+          - ["kind", "nett/freundlich", "Adjektiv"]
+
+      - q: "She is from Germany."
+        a: "Sie ist aus Deutschland."
+        labels: ["Simple Present", "3. Person Singular"]
+        rel:
+          - ["is", "ist", "to be - er/sie/es ist"]
+          - ["from", "aus/von", "Präposition - Herkunft"]
+
+      - q: "We are students."
+        a: "Wir sind Studenten."
+        labels: ["Simple Present", "1. Person Plural"]
+        rel:
+          - ["are", "sind", "to be - wir sind"]
+          - ["students", "Studenten", "Substantiv - Bildung"]
+
+      - q: "They are happy today."
+        a: "Sie sind heute glücklich."
+        labels: ["Simple Present", "3. Person Plural"]
+        rel:
+          - ["are", "sind", "to be - sie sind"]
+          - ["happy", "glücklich", "Adjektiv - Emotion"]
+          - ["today", "heute", "Zeitangabe"]
+
+      - q: "It is cold outside."
+        a: "Es ist draußen kalt."
+        labels: ["Simple Present", "Wetter"]
+        rel:
+          - ["is", "ist", "to be - es ist"]
+          - ["cold", "kalt", "Adjektiv - Wetter"]
+          - ["outside", "draußen", "Adverb - Ort"]
+
+      - q: "I'm not tired."
+        a: "Ich bin nicht müde."
+        labels: ["Kurzform", "Verneinung"]
+        rel:
+          - ["I'm", "ich bin", "to be - Kurzform"]
+          - ["not", "nicht", "Verneinung"]
+          - ["tired", "müde", "Adjektiv - Zustand"]
+
+  - title: "To have"
+    explanation: |
+      **To have** bedeutet **haben**:
+      - Besitz
+      - Beziehungen
+      - Körperliche Merkmale
+      - Erfahrungen (have + Partizip = Perfekt)
+
+      **Konjugation Präsens (Simple Present)**:
+      - I have (ich habe)
+      - you have (du hast / Sie haben)
+      - he/she/it has (er/sie/es hat)
+      - we have (wir haben)
+      - they have (sie haben)
+
+      **Achtung**: In der 3. Person Singular wird **has** verwendet!
+    examples:
+      - q: "I have a car."
+        a: "Ich habe ein Auto."
+        labels: ["Simple Present", "1. Person Singular"]
+        rel:
+          - ["have", "habe", "to have - ich habe"]
+          - ["a car", "ein Auto", "Substantiv - Fahrzeug"]
+
+      - q: "You have two brothers."
+        a: "Du hast zwei Brüder."
+        labels: ["Simple Present", "2. Person Singular"]
+        rel:
+          - ["have", "hast", "to have - du hast"]
+          - ["two", "zwei", "Zahl"]
+          - ["brothers", "Brüder", "Substantiv - Familie"]
+
+      - q: "She has blue eyes."
+        a: "Sie hat blaue Augen."
+        labels: ["Simple Present", "3. Person Singular"]
+        rel:
+          - ["has", "hat", "to have - er/sie/es hat"]
+          - ["blue", "blau", "Adjektiv - Farbe"]
+          - ["eyes", "Augen", "Substantiv - Körper"]
+
+      - q: "We have a big house."
+        a: "Wir haben ein großes Haus."
+        labels: ["Simple Present", "1. Person Plural"]
+        rel:
+          - ["have", "haben", "to have - wir haben"]
+          - ["big", "groß", "Adjektiv"]
+          - ["house", "Haus", "Substantiv - Wohnung"]
+
+      - q: "They have three children."
+        a: "Sie haben drei Kinder."
+        labels: ["Simple Present", "3. Person Plural"]
+        rel:
+          - ["have", "haben", "to have - sie haben"]
+          - ["three", "drei", "Zahl"]
+          - ["children", "Kinder", "Substantiv - Familie"]
+
+      - q: "He has a lot of money."
+        a: "Er hat viel Geld."
+        labels: ["Simple Present", "3. Person Singular"]
+        rel:
+          - ["has", "hat", "to have - er hat"]
+          - ["a lot of", "viel", "Mengenangabe"]
+          - ["money", "Geld", "Substantiv"]
+
+      - q: "I don't have time."
+        a: "Ich habe keine Zeit."
+        labels: ["Verneinung"]
+        rel:
+          - ["don't have", "habe nicht", "to have - Verneinung"]
+          - ["time", "Zeit", "Substantiv"]
+
+  - title: "To be vs To have"
+    explanation: |
+      **Wichtiger Unterschied zum Deutschen**:
+      Im Englischen sagt man:
+      - **I am** 25 years old (ich **bin** 25 Jahre alt)
+      - **I am** hungry (ich **habe** Hunger → ich **bin** hungrig)
+      - **I am** cold (mir **ist** kalt → ich **bin** kalt)
+
+      Das Deutsche verwendet oft **haben**, wo das Englische **to be** nutzt!
+    examples:
+      - q: "I am 30 years old."
+        a: "Ich bin 30 Jahre alt."
+        labels: ["to be", "Alter"]
+        rel:
+          - ["am", "bin", "to be - Alter"]
+          - ["years old", "Jahre alt", "Ausdruck - Alter"]
+
+      - q: "She is hungry."
+        a: "Sie hat Hunger. / Sie ist hungrig."
+        labels: ["to be", "Zustand"]
+        rel:
+          - ["hungry", "hungrig", "Adjektiv - Bedürfnis"]
+
+      - q: "We are thirsty."
+        a: "Wir haben Durst. / Wir sind durstig."
+        labels: ["to be", "Zustand"]
+        rel:
+          - ["thirsty", "durstig", "Adjektiv - Bedürfnis"]
+
+      - q: "He is afraid of dogs."
+        a: "Er hat Angst vor Hunden."
+        labels: ["to be", "Emotion"]
+        rel:
+          - ["afraid of", "Angst haben vor", "Ausdruck"]
+          - ["dogs", "Hunde", "Substantiv - Tier"]
+
+      - q: "Are you cold?"
+        a: "Ist dir kalt? / Frierst du?"
+        labels: ["to be", "Frage"]
+        rel:
+          - ["cold", "kalt", "Adjektiv - Empfindung"]
+
+      - q: "I have a headache."
+        a: "Ich habe Kopfschmerzen."
+        labels: ["to have", "Gesundheit"]
+        rel:
+          - ["have", "habe", "to have - Besitz"]
+          - ["headache", "Kopfschmerzen", "Substantiv - Gesundheit"]

@@ -1,0 +1,225 @@
+version: 1
+number: 10
+title: "Soziale Verben - Geben, Nehmen, Helfen"
+description: "Die Verben to give, to take und to help mit Beispielen"
+sections:
+  - title: "To give"
+    explanation: |
+      **To give** bedeutet **geben**:
+      - Etwas überreichen
+      - Schenken
+      - Informationen geben
+
+      **Konjugation**:
+      - I give, you give, he/she/it **gives**, we give, they give
+      - **Vergangenheit**: gave
+      - **Partizip**: given
+
+      **Struktur**: give + Person + Sache (give me the book)
+      oder: give + Sache + to + Person (give the book to me)
+    examples:
+      - q: "Give me the book, please."
+        a: "Gib mir das Buch, bitte."
+        labels: ["Imperativ"]
+        rel:
+          - ["give", "gib", "to give - Imperativ"]
+          - ["book", "Buch", "Substantiv"]
+
+      - q: "She gives her mother flowers every Sunday."
+        a: "Sie schenkt ihrer Mutter jeden Sonntag Blumen."
+        labels: ["Simple Present", "3. Person Singular"]
+        rel:
+          - ["gives", "schenkt", "to give - er/sie gibt"]
+          - ["mother", "Mutter", "Substantiv - Familie"]
+          - ["flowers", "Blumen", "Substantiv - Natur"]
+
+      - q: "He gave me good advice."
+        a: "Er hat mir einen guten Rat gegeben."
+        labels: ["Vergangenheit"]
+        rel:
+          - ["gave", "gab", "to give - Vergangenheit"]
+          - ["advice", "Rat/Ratschlag", "Substantiv"]
+
+      - q: "Can you give me a hand?"
+        a: "Kannst du mir helfen?"
+        labels: ["Frage", "Ausdruck"]
+        rel:
+          - ["give me a hand", "mir helfen", "Redewendung"]
+
+      - q: "I'll give you a call later."
+        a: "Ich rufe dich später an."
+        labels: ["Ausdruck", "Zukunft"]
+        rel:
+          - ["give you a call", "dich anrufen", "Redewendung"]
+          - ["later", "später", "Zeitangabe"]
+
+      - q: "Don't give up!"
+        a: "Gib nicht auf!"
+        labels: ["Imperativ", "Ausdruck"]
+        rel:
+          - ["give up", "aufgeben", "Phrasal Verb"]
+
+  - title: "To take"
+    explanation: |
+      **To take** bedeutet **nehmen**:
+      - Etwas nehmen/mitnehmen
+      - Brauchen (it takes time)
+      - Transportmittel nehmen (take the bus)
+
+      **Konjugation**:
+      - I take, you take, he/she/it **takes**, we take, they take
+      - **Vergangenheit**: took
+      - **Partizip**: taken
+
+      **Häufige Ausdrücke**:
+      - take a photo = ein Foto machen
+      - take a break = eine Pause machen
+      - take care = pass auf dich auf
+      - it takes = es dauert
+    examples:
+      - q: "Take your umbrella, it's going to rain."
+        a: "Nimm deinen Regenschirm, es wird regnen."
+        labels: ["Imperativ"]
+        rel:
+          - ["take", "nimm", "to take - Imperativ"]
+          - ["umbrella", "Regenschirm", "Substantiv"]
+          - ["rain", "regnen", "Verb - Wetter"]
+
+      - q: "She takes the bus to work."
+        a: "Sie nimmt den Bus zur Arbeit."
+        labels: ["Simple Present", "Transport"]
+        rel:
+          - ["takes", "nimmt", "to take - er/sie nimmt"]
+          - ["bus", "Bus", "Substantiv - Verkehr"]
+
+      - q: "It takes thirty minutes to get there."
+        a: "Es dauert dreißig Minuten, um dorthin zu kommen."
+        labels: ["Ausdruck", "Dauer"]
+        rel:
+          - ["it takes", "es dauert", "Ausdruck - Dauer"]
+          - ["thirty minutes", "dreißig Minuten", "Zeitangabe"]
+
+      - q: "Can I take a photo?"
+        a: "Darf ich ein Foto machen?"
+        labels: ["Frage", "Ausdruck"]
+        rel:
+          - ["take a photo", "ein Foto machen", "Ausdruck"]
+
+      - q: "Let's take a break."
+        a: "Lass uns eine Pause machen."
+        labels: ["Ausdruck"]
+        rel:
+          - ["take a break", "eine Pause machen", "Ausdruck"]
+          - ["break", "Pause", "Substantiv"]
+
+      - q: "He took my advice."
+        a: "Er hat meinen Rat befolgt."
+        labels: ["Vergangenheit"]
+        rel:
+          - ["took", "nahm an/befolgte", "to take - Vergangenheit"]
+          - ["advice", "Rat", "Substantiv"]
+
+      - q: "Take care!"
+        a: "Pass auf dich auf! / Mach's gut!"
+        labels: ["Ausdruck", "Abschied"]
+        rel:
+          - ["take care", "pass auf dich auf", "Redewendung"]
+
+  - title: "To help"
+    explanation: |
+      **To help** bedeutet **helfen**:
+      - Unterstützung geben
+      - Assistieren
+
+      **Konjugation**:
+      - I help, you help, he/she/it **helps**, we help, they help
+      - **Vergangenheit**: helped
+
+      **Strukturen**:
+      - help + Person + Verb (help me carry this)
+      - help + Person + with (help me with my homework)
+      - can't help = kann nicht anders (can't help laughing)
+    examples:
+      - q: "Can you help me?"
+        a: "Kannst du mir helfen?"
+        labels: ["Frage"]
+        rel:
+          - ["help", "helfen", "to help"]
+          - ["me", "mir", "Pronomen"]
+
+      - q: "She helps her children with homework."
+        a: "Sie hilft ihren Kindern bei den Hausaufgaben."
+        labels: ["Simple Present", "3. Person Singular"]
+        rel:
+          - ["helps", "hilft", "to help - er/sie hilft"]
+          - ["children", "Kinder", "Substantiv - Familie"]
+          - ["homework", "Hausaufgaben", "Substantiv - Schule"]
+
+      - q: "He helped me carry the boxes."
+        a: "Er hat mir geholfen, die Kisten zu tragen."
+        labels: ["Vergangenheit"]
+        rel:
+          - ["helped", "half/hat geholfen", "to help - Vergangenheit"]
+          - ["carry", "tragen", "Verb"]
+          - ["boxes", "Kisten", "Substantiv"]
+
+      - q: "I can't help it."
+        a: "Ich kann nichts dafür."
+        labels: ["Ausdruck"]
+        rel:
+          - ["can't help it", "kann nichts dafür", "Redewendung"]
+
+      - q: "Let me help you with that."
+        a: "Lass mich dir dabei helfen."
+        labels: ["Angebot"]
+        rel:
+          - ["let me help", "lass mich helfen", "Angebot"]
+          - ["with that", "dabei", "Ausdruck"]
+
+      - q: "Thank you for helping me."
+        a: "Danke, dass du mir geholfen hast."
+        labels: ["Dank"]
+        rel:
+          - ["thank you for", "danke für", "Ausdruck - Dank"]
+          - ["helping", "helfen", "to help - Gerundium"]
+
+  - title: "Ausdrücke mit Give, Take, Help"
+    explanation: |
+      **Häufige Redewendungen**:
+      - give it a try = es versuchen
+      - take it easy = locker bleiben
+      - help yourself = bedien dich
+      - give and take = Geben und Nehmen
+    examples:
+      - q: "Give it a try!"
+        a: "Versuch es einfach!"
+        labels: ["Redewendung"]
+        rel:
+          - ["give it a try", "es versuchen", "Redewendung"]
+
+      - q: "Take it easy!"
+        a: "Immer mit der Ruhe! / Mach dir keinen Stress!"
+        labels: ["Redewendung"]
+        rel:
+          - ["take it easy", "locker bleiben", "Redewendung"]
+
+      - q: "Help yourself to some cake."
+        a: "Bedien dich, nimm dir Kuchen."
+        labels: ["Redewendung", "Angebot"]
+        rel:
+          - ["help yourself", "bedien dich", "Redewendung"]
+          - ["cake", "Kuchen", "Substantiv - Essen"]
+
+      - q: "A good relationship is about give and take."
+        a: "Eine gute Beziehung basiert auf Geben und Nehmen."
+        labels: ["Redewendung"]
+        rel:
+          - ["give and take", "Geben und Nehmen", "Redewendung"]
+          - ["relationship", "Beziehung", "Substantiv"]
+
+      - q: "I can't help laughing."
+        a: "Ich kann nicht anders, als zu lachen."
+        labels: ["Ausdruck"]
+        rel:
+          - ["can't help laughing", "kann nicht anders als zu lachen", "Ausdruck"]
+          - ["laughing", "lachen", "Verb - Gerundium"]

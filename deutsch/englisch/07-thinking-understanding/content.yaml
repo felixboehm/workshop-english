@@ -1,0 +1,170 @@
+version: 1
+number: 7
+title: "Denken und Verstehen - Denken, Glauben, Verstehen"
+description: "Die Verben to think, to believe und to understand mit Beispielen"
+sections:
+  - title: "To think"
+    explanation: |
+      **To think** bedeutet **denken/meinen**:
+      - Meinungen ausdrücken (I think it's good)
+      - Nachdenken (think about)
+      - Überlegen (let me think)
+
+      **Konjugation**:
+      - I think, you think, he/she/it **thinks**, we think, they think
+      - **Vergangenheit**: thought
+
+      **Wichtige Konstruktionen**:
+      - think about = nachdenken über
+      - think of = denken an
+      - I think so = ich glaube/denke schon
+    examples:
+      - q: "I think it's a good idea."
+        a: "Ich denke, es ist eine gute Idee."
+        labels: ["Meinung"]
+        rel:
+          - ["think", "denke", "to think - Meinung"]
+          - ["good idea", "gute Idee", "Ausdruck"]
+
+      - q: "What do you think about this?"
+        a: "Was denkst du darüber?"
+        labels: ["Frage"]
+        rel:
+          - ["what do you think", "was denkst du", "Frage"]
+          - ["about this", "darüber", "Ausdruck"]
+
+      - q: "She thinks he is right."
+        a: "Sie denkt, er hat recht."
+        labels: ["Simple Present", "3. Person Singular"]
+        rel:
+          - ["thinks", "denkt", "to think - er/sie denkt"]
+          - ["right", "recht/richtig", "Adjektiv"]
+
+      - q: "I thought you were coming."
+        a: "Ich dachte, du kommst."
+        labels: ["Vergangenheit"]
+        rel:
+          - ["thought", "dachte", "to think - Vergangenheit"]
+          - ["were coming", "kommst", "Verlaufsform"]
+
+      - q: "Let me think about it."
+        a: "Lass mich darüber nachdenken."
+        labels: ["Ausdruck"]
+        rel:
+          - ["let me think", "lass mich nachdenken", "Ausdruck"]
+          - ["about it", "darüber", "Pronomen"]
+
+      - q: "I don't think so."
+        a: "Ich glaube nicht."
+        labels: ["Verneinung", "Ausdruck"]
+        rel:
+          - ["I don't think so", "ich glaube nicht", "Redewendung"]
+
+  - title: "To believe"
+    explanation: |
+      **To believe** bedeutet **glauben**:
+      - An etwas glauben (believe in)
+      - Etwas für wahr halten
+      - Vertrauen
+
+      **Konjugation**:
+      - I believe, you believe, he/she/it **believes**, we believe, they believe
+
+      **Unterschied zu think**:
+      - **think** = meinen, denken (Meinung)
+      - **believe** = glauben, überzeugt sein (stärker)
+    examples:
+      - q: "I believe you."
+        a: "Ich glaube dir."
+        labels: ["Vertrauen"]
+        rel:
+          - ["believe", "glaube", "to believe"]
+          - ["you", "dir", "Pronomen"]
+
+      - q: "She believes in herself."
+        a: "Sie glaubt an sich selbst."
+        labels: ["Überzeugung"]
+        rel:
+          - ["believes in", "glaubt an", "to believe in"]
+          - ["herself", "sich selbst", "Reflexivpronomen"]
+
+      - q: "I can't believe it!"
+        a: "Ich kann es nicht glauben!"
+        labels: ["Ausdruck", "Überraschung"]
+        rel:
+          - ["can't believe", "kann nicht glauben", "Ausdruck"]
+
+      - q: "Do you believe in ghosts?"
+        a: "Glaubst du an Geister?"
+        labels: ["Frage"]
+        rel:
+          - ["believe in", "glauben an", "to believe in"]
+          - ["ghosts", "Geister", "Substantiv"]
+
+      - q: "He believes everything she says."
+        a: "Er glaubt alles, was sie sagt."
+        labels: ["Simple Present"]
+        rel:
+          - ["believes", "glaubt", "to believe - er/sie glaubt"]
+          - ["everything", "alles", "Pronomen"]
+
+  - title: "To understand"
+    explanation: |
+      **To understand** bedeutet **verstehen**:
+      - Sprachlich verstehen
+      - Inhaltlich begreifen
+      - Verständnis zeigen
+
+      **Konjugation**:
+      - I understand, you understand, he/she/it **understands**
+      - **Vergangenheit**: understood
+
+      **Nützliche Ausdrücke**:
+      - I understand = Ich verstehe
+      - I don't understand = Ich verstehe nicht
+      - Do you understand? = Verstehst du?
+    examples:
+      - q: "I understand German but I can't speak it well."
+        a: "Ich verstehe Deutsch, aber ich kann es nicht gut sprechen."
+        labels: ["Fähigkeit"]
+        rel:
+          - ["understand", "verstehe", "to understand"]
+          - ["German", "Deutsch", "Sprache"]
+          - ["can't speak", "kann nicht sprechen", "Verneinung"]
+
+      - q: "Do you understand the question?"
+        a: "Verstehst du die Frage?"
+        labels: ["Frage"]
+        rel:
+          - ["understand", "verstehen", "to understand"]
+          - ["question", "Frage", "Substantiv"]
+
+      - q: "She doesn't understand why he left."
+        a: "Sie versteht nicht, warum er gegangen ist."
+        labels: ["Verneinung"]
+        rel:
+          - ["doesn't understand", "versteht nicht", "Verneinung"]
+          - ["why", "warum", "Fragewort"]
+          - ["left", "gegangen ist", "to leave - Vergangenheit"]
+
+      - q: "I understood everything he said."
+        a: "Ich habe alles verstanden, was er gesagt hat."
+        labels: ["Vergangenheit"]
+        rel:
+          - ["understood", "verstand/habe verstanden", "Vergangenheit"]
+          - ["everything", "alles", "Pronomen"]
+
+      - q: "Please speak slowly, I don't understand."
+        a: "Bitte sprich langsam, ich verstehe nicht."
+        labels: ["Bitte", "Verneinung"]
+        rel:
+          - ["please", "bitte", "Höflichkeitswort"]
+          - ["slowly", "langsam", "Adverb"]
+          - ["don't understand", "verstehe nicht", "Verneinung"]
+
+      - q: "Now I understand!"
+        a: "Jetzt verstehe ich!"
+        labels: ["Ausdruck"]
+        rel:
+          - ["now", "jetzt", "Zeitangabe"]
+          - ["understand", "verstehe", "to understand"]

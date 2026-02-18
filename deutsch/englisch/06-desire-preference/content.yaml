@@ -1,0 +1,210 @@
+version: 1
+number: 6
+title: "Wünsche und Vorlieben - Wollen, Mögen, Brauchen"
+description: "Die Verben to want, to like und to need mit Beispielen"
+sections:
+  - title: "To want"
+    explanation: |
+      **To want** bedeutet **wollen/möchten**:
+      - Wünsche ausdrücken
+      - Etwas haben wollen
+      - Oft mit Infinitiv (want to + Verb)
+
+      **Konjugation**:
+      - I want, you want, he/she/it **wants**, we want, they want
+
+      **Tipp**: "Would like" ist höflicher als "want":
+      - I want coffee (direkt)
+      - I would like coffee / I'd like coffee (höflich)
+    examples:
+      - q: "I want a cup of coffee."
+        a: "Ich möchte eine Tasse Kaffee."
+        labels: ["Simple Present"]
+        rel:
+          - ["want", "möchte/will", "to want"]
+          - ["a cup of", "eine Tasse", "Mengenangabe"]
+          - ["coffee", "Kaffee", "Substantiv - Getränk"]
+
+      - q: "She wants to go home."
+        a: "Sie will nach Hause gehen."
+        labels: ["Simple Present", "3. Person Singular"]
+        rel:
+          - ["wants to", "will", "to want + Infinitiv"]
+          - ["go home", "nach Hause gehen", "Ausdruck"]
+
+      - q: "What do you want for dinner?"
+        a: "Was willst du zum Abendessen?"
+        labels: ["Frage"]
+        rel:
+          - ["what do you want", "was willst du", "Frage"]
+          - ["for dinner", "zum Abendessen", "Mahlzeit"]
+
+      - q: "I don't want to be late."
+        a: "Ich will nicht zu spät kommen."
+        labels: ["Verneinung"]
+        rel:
+          - ["don't want to", "will nicht", "Verneinung"]
+          - ["be late", "zu spät kommen", "Ausdruck"]
+          - ["late", "spät", "Adjektiv"]
+
+      - q: "I'd like a glass of water, please."
+        a: "Ich hätte gerne ein Glas Wasser, bitte."
+        labels: ["Höflichkeit", "would like"]
+        rel:
+          - ["I'd like", "ich hätte gerne", "Höfliche Form von want"]
+          - ["a glass of", "ein Glas", "Mengenangabe"]
+          - ["water", "Wasser", "Substantiv - Getränk"]
+
+      - q: "Do you want to come with us?"
+        a: "Willst du mit uns kommen?"
+        labels: ["Frage", "Einladung"]
+        rel:
+          - ["want to come", "kommen wollen", "Ausdruck"]
+          - ["with us", "mit uns", "Pronomen"]
+
+  - title: "To like"
+    explanation: |
+      **To like** bedeutet **mögen/gern haben**:
+      - Vorlieben ausdrücken
+      - Like + Substantiv (I like coffee)
+      - Like + Gerundium (I like swimming)
+      - Like + Infinitiv (I like to swim)
+
+      **Konjugation**:
+      - I like, you like, he/she/it **likes**, we like, they like
+
+      **Steigerung**: like < love < adore
+    examples:
+      - q: "I like chocolate."
+        a: "Ich mag Schokolade."
+        labels: ["Simple Present"]
+        rel:
+          - ["like", "mag", "to like"]
+          - ["chocolate", "Schokolade", "Substantiv - Essen"]
+
+      - q: "She likes reading books."
+        a: "Sie liest gerne Bücher."
+        labels: ["Simple Present", "Gerundium"]
+        rel:
+          - ["likes reading", "liest gerne", "like + Gerundium"]
+          - ["books", "Bücher", "Substantiv"]
+
+      - q: "Do you like your new job?"
+        a: "Magst du deinen neuen Job?"
+        labels: ["Frage"]
+        rel:
+          - ["do you like", "magst du", "Frage"]
+          - ["new", "neu", "Adjektiv"]
+          - ["job", "Job/Arbeit", "Substantiv - Beruf"]
+
+      - q: "I don't like getting up early."
+        a: "Ich stehe nicht gern früh auf."
+        labels: ["Verneinung", "Gerundium"]
+        rel:
+          - ["don't like", "mag nicht", "Verneinung"]
+          - ["getting up", "aufstehen", "Phrasal Verb"]
+          - ["early", "früh", "Adverb"]
+
+      - q: "He likes playing football."
+        a: "Er spielt gerne Fußball."
+        labels: ["Simple Present", "Gerundium"]
+        rel:
+          - ["likes playing", "spielt gerne", "like + Gerundium"]
+          - ["football", "Fußball", "Substantiv - Sport"]
+
+      - q: "Would you like some tea?"
+        a: "Möchtest du etwas Tee?"
+        labels: ["Höflichkeit", "Angebot"]
+        rel:
+          - ["would you like", "möchtest du", "Höfliche Frage"]
+          - ["some", "etwas", "Mengenangabe"]
+          - ["tea", "Tee", "Substantiv - Getränk"]
+
+  - title: "To need"
+    explanation: |
+      **To need** bedeutet **brauchen/benötigen**:
+      - Notwendigkeit ausdrücken
+      - Need + Substantiv (I need help)
+      - Need + Infinitiv (I need to go)
+
+      **Konjugation**:
+      - I need, you need, he/she/it **needs**, we need, they need
+
+      **Unterschied**: want = wollen (Wunsch), need = brauchen (Notwendigkeit)
+    examples:
+      - q: "I need your help."
+        a: "Ich brauche deine Hilfe."
+        labels: ["Simple Present"]
+        rel:
+          - ["need", "brauche", "to need"]
+          - ["help", "Hilfe", "Substantiv"]
+
+      - q: "She needs more time."
+        a: "Sie braucht mehr Zeit."
+        labels: ["Simple Present", "3. Person Singular"]
+        rel:
+          - ["needs", "braucht", "to need - er/sie braucht"]
+          - ["more", "mehr", "Adverb"]
+          - ["time", "Zeit", "Substantiv"]
+
+      - q: "You need to be careful."
+        a: "Du musst vorsichtig sein."
+        labels: ["Warnung"]
+        rel:
+          - ["need to be", "muss sein", "Notwendigkeit"]
+          - ["careful", "vorsichtig", "Adjektiv"]
+
+      - q: "I don't need anything."
+        a: "Ich brauche nichts."
+        labels: ["Verneinung"]
+        rel:
+          - ["don't need", "brauche nicht", "Verneinung"]
+          - ["anything", "irgendetwas/nichts", "Pronomen"]
+
+      - q: "What do you need?"
+        a: "Was brauchst du?"
+        labels: ["Frage"]
+        rel:
+          - ["what do you need", "was brauchst du", "Frage"]
+
+      - q: "We need to talk."
+        a: "Wir müssen reden."
+        labels: ["Ausdruck"]
+        rel:
+          - ["need to talk", "müssen reden", "Ausdruck"]
+          - ["talk", "reden", "Verb"]
+
+  - title: "Ausdrücke mit Want, Like, Need"
+    explanation: |
+      **Häufige Ausdrücke**:
+      - I'd love to = Ich würde sehr gerne
+      - feel like = Lust haben auf
+      - if you like = wenn du magst
+      - as you like = wie du willst
+    examples:
+      - q: "I'd love to come to your party."
+        a: "Ich würde sehr gerne zu deiner Party kommen."
+        labels: ["Ausdruck", "Höflichkeit"]
+        rel:
+          - ["I'd love to", "ich würde sehr gerne", "Ausdruck"]
+
+      - q: "I feel like eating pizza."
+        a: "Ich habe Lust auf Pizza."
+        labels: ["Ausdruck"]
+        rel:
+          - ["feel like", "Lust haben auf", "Ausdruck"]
+          - ["pizza", "Pizza", "Substantiv - Essen"]
+
+      - q: "You can stay if you like."
+        a: "Du kannst bleiben, wenn du magst."
+        labels: ["Ausdruck", "Angebot"]
+        rel:
+          - ["if you like", "wenn du magst", "Ausdruck"]
+          - ["stay", "bleiben", "Verb"]
+
+      - q: "All I need is love."
+        a: "Alles, was ich brauche, ist Liebe."
+        labels: ["Ausdruck"]
+        rel:
+          - ["all I need", "alles was ich brauche", "Ausdruck"]
+          - ["love", "Liebe", "Substantiv"]

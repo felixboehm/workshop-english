@@ -1,0 +1,177 @@
+version: 1
+number: 9
+title: "Bewegung und Position - Sitzen, Stehen, Gehen"
+description: "Die Verben to sit, to stand und to walk/run mit Beispielen"
+sections:
+  - title: "To sit"
+    explanation: |
+      **To sit** bedeutet **sitzen**:
+      - Sich setzen (sit down)
+      - Sitzen (an einem Ort)
+      - Oft mit Präpositionen (on, in, at)
+
+      **Konjugation**:
+      - I sit, you sit, he/she/it **sits**, we sit, they sit
+      - **Vergangenheit**: sat
+
+      **Wichtige Ausdrücke**:
+      - sit down = sich setzen
+      - sit up = sich aufsetzen
+      - sit next to = neben jemandem sitzen
+    examples:
+      - q: "Please sit down."
+        a: "Bitte setzen Sie sich."
+        labels: ["Imperativ", "Höflichkeit"]
+        rel:
+          - ["sit down", "sich setzen", "Phrasal Verb"]
+          - ["please", "bitte", "Höflichkeitswort"]
+
+      - q: "She sits next to me in class."
+        a: "Sie sitzt in der Klasse neben mir."
+        labels: ["Simple Present", "3. Person Singular"]
+        rel:
+          - ["sits", "sitzt", "to sit - er/sie sitzt"]
+          - ["next to", "neben", "Präposition"]
+          - ["in class", "in der Klasse", "Ort"]
+
+      - q: "We sat in the garden all afternoon."
+        a: "Wir saßen den ganzen Nachmittag im Garten."
+        labels: ["Vergangenheit"]
+        rel:
+          - ["sat", "saßen", "to sit - Vergangenheit"]
+          - ["garden", "Garten", "Substantiv"]
+          - ["all afternoon", "den ganzen Nachmittag", "Zeitangabe"]
+
+      - q: "Don't sit on the table!"
+        a: "Sitz nicht auf dem Tisch!"
+        labels: ["Imperativ", "Verneinung"]
+        rel:
+          - ["don't sit", "sitz nicht", "Verneinung"]
+          - ["on", "auf", "Präposition"]
+          - ["table", "Tisch", "Substantiv - Möbel"]
+
+      - q: "I like sitting by the window."
+        a: "Ich sitze gerne am Fenster."
+        labels: ["Gerundium"]
+        rel:
+          - ["sitting", "sitzend", "to sit - Gerundium"]
+          - ["by the window", "am Fenster", "Ort"]
+
+  - title: "To stand"
+    explanation: |
+      **To stand** bedeutet **stehen**:
+      - Aufrecht stehen
+      - Sich hinstellen (stand up)
+      - Ertragen (I can't stand it)
+
+      **Konjugation**:
+      - I stand, you stand, he/she/it **stands**, we stand, they stand
+      - **Vergangenheit**: stood
+
+      **Wichtige Ausdrücke**:
+      - stand up = aufstehen
+      - stand in line = in der Schlange stehen
+      - can't stand = nicht ausstehen können
+    examples:
+      - q: "Please stand up."
+        a: "Bitte stehen Sie auf."
+        labels: ["Imperativ", "Höflichkeit"]
+        rel:
+          - ["stand up", "aufstehen", "Phrasal Verb"]
+
+      - q: "He stands at the bus stop every morning."
+        a: "Er steht jeden Morgen an der Bushaltestelle."
+        labels: ["Simple Present", "Routine"]
+        rel:
+          - ["stands", "steht", "to stand - er/sie steht"]
+          - ["bus stop", "Bushaltestelle", "Substantiv - Verkehr"]
+
+      - q: "We stood in line for an hour."
+        a: "Wir standen eine Stunde in der Schlange."
+        labels: ["Vergangenheit"]
+        rel:
+          - ["stood", "standen", "to stand - Vergangenheit"]
+          - ["in line", "in der Schlange", "Ausdruck"]
+          - ["for an hour", "eine Stunde lang", "Zeitangabe"]
+
+      - q: "I can't stand the noise."
+        a: "Ich kann den Lärm nicht ertragen."
+        labels: ["Ausdruck", "Verneinung"]
+        rel:
+          - ["can't stand", "kann nicht ertragen", "Ausdruck"]
+          - ["noise", "Lärm", "Substantiv"]
+
+      - q: "She was standing in the rain."
+        a: "Sie stand im Regen."
+        labels: ["Verlaufsform"]
+        rel:
+          - ["was standing", "stand", "Past Continuous"]
+          - ["in the rain", "im Regen", "Ort - Wetter"]
+          - ["rain", "Regen", "Substantiv - Wetter"]
+
+  - title: "To walk / To run"
+    explanation: |
+      **To walk** bedeutet **gehen/laufen** (langsam):
+      - Zu Fuß gehen
+      - Spazieren gehen
+      - Den Hund ausführen (walk the dog)
+
+      **To run** bedeutet **rennen/laufen** (schnell):
+      - Schnell laufen
+      - Joggen
+      - Leiten (run a business)
+
+      **Konjugation**:
+      - walk: walked (Vergangenheit)
+      - run: ran (Vergangenheit), run (Partizip)
+    examples:
+      - q: "I walk to work every day."
+        a: "Ich gehe jeden Tag zu Fuß zur Arbeit."
+        labels: ["Simple Present", "to walk"]
+        rel:
+          - ["walk", "gehe zu Fuß", "to walk"]
+          - ["to work", "zur Arbeit", "Ort"]
+
+      - q: "She walks her dog in the park."
+        a: "Sie führt ihren Hund im Park aus."
+        labels: ["Simple Present", "to walk"]
+        rel:
+          - ["walks her dog", "führt ihren Hund aus", "Ausdruck"]
+          - ["dog", "Hund", "Substantiv - Tier"]
+          - ["park", "Park", "Substantiv - Ort"]
+
+      - q: "Let's go for a walk."
+        a: "Lass uns spazieren gehen."
+        labels: ["Ausdruck", "to walk"]
+        rel:
+          - ["go for a walk", "spazieren gehen", "Ausdruck"]
+
+      - q: "He runs five kilometers every morning."
+        a: "Er läuft jeden Morgen fünf Kilometer."
+        labels: ["Simple Present", "to run"]
+        rel:
+          - ["runs", "läuft", "to run - er/sie läuft"]
+          - ["five kilometers", "fünf Kilometer", "Entfernung"]
+
+      - q: "The children ran across the street."
+        a: "Die Kinder rannten über die Straße."
+        labels: ["Vergangenheit", "to run"]
+        rel:
+          - ["ran", "rannten", "to run - Vergangenheit"]
+          - ["across", "über/quer durch", "Präposition"]
+          - ["street", "Straße", "Substantiv"]
+
+      - q: "Don't run in the hallway!"
+        a: "Renn nicht im Flur!"
+        labels: ["Imperativ", "Verneinung", "to run"]
+        rel:
+          - ["don't run", "renn nicht", "Verneinung"]
+          - ["hallway", "Flur", "Substantiv - Gebäude"]
+
+      - q: "She runs a small business."
+        a: "Sie leitet ein kleines Unternehmen."
+        labels: ["to run", "Übertragene Bedeutung"]
+        rel:
+          - ["runs", "leitet", "to run - leiten"]
+          - ["small", "klein", "Adjektiv"]
+          - ["business", "Unternehmen/Geschäft", "Substantiv"]

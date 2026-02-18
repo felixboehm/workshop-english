@@ -1,26 +1,24 @@
-# Workshop: Englisch lernen / Learn English
+# Workshop: Learn English
 
-> **[Workshop laden](https://felixboehm.github.io/open-learn/#/add?source=https://felixboehm.github.io/workshop-english)**
+> **[Workshop starten](https://felixboehm.github.io/open-learn/#/add?source=https://felixboehm.github.io/workshop-english)**
 
-Ein interaktiver Workshop zum Erlernen der englischen Sprache mit Fokus auf die wichtigsten Verben und ihre Konjugationen.
+An interactive workshop for learning English with a focus on the most important verbs and their conjugations. German interface with 10 lessons covering 30 core verbs.
 
-An interactive workshop for learning English with a focus on the most important verbs and their conjugations.
+## Content
 
-## Inhalt / Content
+### 10 Lessons
+1. **Essential Verbs** — To be, to have
+2. **Action Verbs** — To go, to come, to do/make
+3. **Modal Verbs** — Can, must, should
+4. **Communication Verbs** — To say, to tell, to speak/talk
+5. **Perception & Knowledge** — To see, to hear, to know
+6. **Desire & Preference** — To want, to like, to need
+7. **Thinking & Understanding** — To think, to believe, to understand
+8. **Daily Routines** — To eat, to drink, to sleep
+9. **Movement & Position** — To sit, to stand, to walk/run
+10. **Social Verbs** — To give, to take, to help
 
-### Deutsch (10 Lektionen)
-1. **Grundlegende Verben** — To be, to have (sein, haben)
-2. **Bewegungsverben** — To go, to come, to do/make (gehen, kommen, machen)
-3. **Modalverben** — Can, must, should (können, müssen, sollen)
-4. **Kommunikationsverben** — To say, to tell, to speak (sagen, erzählen, sprechen)
-5. **Wahrnehmung und Wissen** — To see, to hear, to know (sehen, hören, wissen)
-6. **Wünsche und Vorlieben** — To want, to like, to need (wollen, mögen, brauchen)
-7. **Denken und Verstehen** — To think, to believe, to understand (denken, glauben, verstehen)
-8. **Tägliche Verben** — To eat, to drink, to sleep (essen, trinken, schlafen)
-9. **Bewegung und Position** — To sit, to stand, to walk (sitzen, stehen, gehen)
-10. **Soziale Verben** — To give, to take, to help (geben, nehmen, helfen)
-
-## Struktur / Structure
+## Structure
 
 ```
 workshop-english/

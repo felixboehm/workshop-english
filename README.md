@@ -1,6 +1,6 @@
 # Workshop: Learn English
 
-> **[Workshop starten](https://felixboehm.github.io/open-learn/#/add?source=https://felixboehm.github.io/workshop-english)**
+> **[Workshop starten](https://felixboehm.github.io/open-learn/#/add?source=https://felixboehm.github.io/workshop-english/index.yaml)**
 
 An interactive workshop for learning English with a focus on the most important verbs and their conjugations. German interface with 10 lessons covering 30 core verbs.
 
@@ -22,7 +22,8 @@ An interactive workshop for learning English with a focus on the most important 
 
 ```
 workshop-english/
-├── languages.yaml
+├── index.yaml
+├── index.html
 ├── deutsch/
 │   ├── topics.yaml
 │   └── englisch/

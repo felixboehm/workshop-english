@@ -1,16 +1,10 @@
 # Workshop: Englisch lernen / Learn English
 
+> **[Workshop laden](https://felixboehm.github.io/open-learn/#/add?source=https://felixboehm.github.io/workshop-english)**
+
 Ein interaktiver Workshop zum Erlernen der englischen Sprache mit Fokus auf die wichtigsten Verben und ihre Konjugationen.
 
 An interactive workshop for learning English with a focus on the most important verbs and their conjugations.
-
-## Workshop starten / Start Workshop
-
-Klicke den folgenden Link, um diesen Workshop zu Open Learn hinzuzufügen:
-
-Click the following link to add this workshop to Open Learn:
-
-**[Workshop zu Open Learn hinzufügen / Add Workshop to Open Learn](https://felixboehm.github.io/open-learn/#/add?source=https://felixboehm.github.io/workshop-english)**
 
 ## Inhalt / Content
 
